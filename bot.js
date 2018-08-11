@@ -299,10 +299,10 @@ ${prefix}stop
 ${prefix}come
 دخول البوت
 ════════**ADMIN**══════
-${prefix}${prefix}setgame══⚜لتغيير حاله البوت
-${prefix}${prefix}setname══⚜لتغيير اسم البوت
-${prefix}${prefix}setavatar⚜لتغيير صوره البوت
-${prefix}${prefix}setT═════⚜لتغيير تويتش البوت
+${prefix}${prefix}setgame══♔لتغيير حاله البوت
+${prefix}${prefix}setname══♔لتغيير اسم البوت
+${prefix}${prefix}setavatar═♔لتغيير صوره البوت
+${prefix}${prefix}setT═════♔لتغيير تويتش البوت
 ══════════════════════
 BOT.By:ضياااع
 by : mr hngrl
@@ -317,11 +317,12 @@ by : mr hngrl
             message.react("✅")
         let embed = new Discord.RichEmbed()
      .setColor("#000000")
-     .addField(" تــــم" , "✉ | تم ارسالك في الخاص")
+     .addField( "✉ | تم ارسالك في الخاص")
 
         
         
      message.channel.sendEmbed(embed);
+     message.delete();
        }
    });
    
