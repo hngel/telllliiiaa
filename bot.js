@@ -274,7 +274,7 @@ function isYoutube(str) {
 
 client.on("message", message => {
 
- if (message.content === prefix +"help") {  
+ if (message.content === prefix +"help") {  https://www.youtube.com/
 const embed = new Discord.RichEmbed()   
   .setThumbnail(message.author.avatarURL) 
       .setColor("#000000")  
@@ -317,7 +317,7 @@ by : mr hngrl
             message.react("✅")
         let embed = new Discord.RichEmbed()
      .setColor("#000000")
-     .addField( "✉ | تم ارسالك في الخاص")
+   .setDescription(`| تم ارسالك في الخاص`);//BY.MR.Hngel
 
         
         
